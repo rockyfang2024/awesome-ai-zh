@@ -15,6 +15,7 @@
 | 来源 | 特点 |
 |------|------|
 | [Import AI](https://importai.substack.com/) | AI 周报（深度） |
+| [AI Weekly](https://aiweekly.co/) | 追踪 AI 专家和机构当前正在阅读和分享的内容 |
 | [The Batch（DeepLearning.AI）](https://www.deeplearning.ai/the-batch/) | 吴恩达团队 |
 | [TLDR AI](https://tldr.tech/ai) | 每日 AI 简报 |
 | [AlphaSignal](https://alphasignal.ai/) | AI 产品更新 |
