@@ -1,5 +1,7 @@
 # 🎬 AI 视频教程
 
+高校课程的公开范围、作业和访问限制见[高校 AI 公开课程目录](13-university-open-courses.md)。
+
 ## 中文（B 站 + 国内）
 
 | 课程 | 评级 | 时间 | 适合 |
@@ -18,7 +20,7 @@
 | 🎓 [Andrej Karpathy: Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) | 🌟 必读 | ⏱️ 2h | 手写 GPT |
 | 🎓 [CS231n Stanford](http://cs231n.stanford.edu/) | ✅ 推荐 | ⏱️ 1d+ | CV |
 | 🎓 [CS224n Stanford](http://web.stanford.edu/class/cs224n/) | ✅ 推荐 | ⏱️ 1d+ | NLP |
-| 🎓 [MIT 6.S191](http://introtodeeplearning.com/) | ✅ 推荐 | ⏱️ 1d+ | DL 入门 |
+| 🎓 [MIT 6.S191](https://introtodeeplearning.com/) | ✅ 推荐 | ⏱️ 1d+ | DL 入门 |
 
 ## 在线交互
 
@@ -49,4 +51,4 @@
 
 ---
 
-*最后更新: 2026-07-16*
+*高校课程链接补充：2026-10-12；本页其他资源未在本次复核。*

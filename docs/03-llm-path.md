@@ -2,6 +2,8 @@
 
 > 这条路径从 Transformer 基础走到 LLM 应用实践。根据目标选择需要的部分，不必一次学完所有主题。
 
+如果你想跟随大学课程系统学习，可先浏览[高校 AI 公开课程目录](13-university-open-courses.md)，其中包含 Stanford、MIT、Yale、HKU、HKUST 和清华的公开课程或课程资料入口，并注明访问限制。
+
 ## 🎯 建议学习顺序
 
 1. **Transformer 原理**（1 周）—— 现代 LLM 全部基于此
