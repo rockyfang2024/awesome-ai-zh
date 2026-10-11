@@ -1,105 +1,63 @@
 # awesome-ai-zh
 
-> 🎯 GitHub 上学习 AI 最全的中文资源仓库。覆盖 LLM / 机器学习 / 深度学习 / AI 应用，从入门到精通。
+> 面向中文学习者的 AI 学习路线与实作资源。帮你从理解基础走到做出一个可运行的 AI 应用。
 
----
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-## 🚦 资源质量评分
+这个仓库优先解决“我该从哪里开始、学完能做什么、资料现在还值得看吗”这三个问题。我们精选学习资源，说明推荐理由与适合人群，并定期核查容易过时的信息。
 
-每个资源都带评分和时间标签，帮你**快速判断**该投入多少时间：
+## 从这里开始
 
-| 评分 | 含义 |
-|---|---|
-| 🌟 **必读** | 不看会错过关键认知 |
-| ✅ **推荐** | 值得花时间看 |
-| 💡 **一般** | 闲暇时翻翻 |
-| ⏸️ **过时** | 之前好，现在被超越 |
+| 你的目标 | 推荐路径 |
+| --- | --- |
+| 我是 AI 新手，想先建立整体认识 | [AI 入门与第一周学习计划](docs/01-getting-started.md) |
+| 我会编程，想做 LLM 应用 | [LLM 学习路径](docs/03-llm-path.md) → [RAG 与 Agent](docs/06-rag-agent.md) |
+| 我想理解模型原理 | [机器学习](docs/04-ml-path.md) → [深度学习](docs/02-deep-learning-path.md) → [LLM](docs/03-llm-path.md) |
+| 我只想找一个专题或资料 | 浏览下方[主题目录](#主题目录) |
 
-**时间标签**: ⏱️ <10min / ⏱️ 30min / ⏱️ 1-2h / ⏱️ 1d+
+### 新手第一周
 
-> 💡 **仓库原则**：质量 > 数量。每个主章节只放 5-10 个顶级资源，详情见附录。
+1. 用一款可访问的大模型完成一个真实的小任务，记录它答错的地方。
+2. 看 [3Blue1Brown 神经网络系列](https://www.3blue1brown.com/topics/neural-networks)，建立基本直觉。
+3. 按 [AI 入门路径](docs/01-getting-started.md) 学会调用模型 API，做一个命令行问答程序。
+4. 把程序、运行方式和已知限制写进自己的 README；再决定是否继续学习 RAG、Agent 或模型原理。
 
----
+## 主题目录
 
-## 🆕 本月推荐（2026-07）
+| 主题 | 内容 |
+| --- | --- |
+| [AI 入门 101](docs/01-getting-started.md) | 概念、学习分支、第一周计划 |
+| [深度学习](docs/02-deep-learning-path.md) | 神经网络、Transformer、经典课程 |
+| [LLM / 大模型](docs/03-llm-path.md) | 基础原理、API、模型与工具官方目录 |
+| [机器学习](docs/04-ml-path.md) | 监督学习、评估与实践 |
+| [Prompt 工程](docs/05-prompt-engineering.md) | 提示设计与结构化输出 |
+| [RAG 与 Agent](docs/06-rag-agent.md) | 检索、工具调用与应用构建 |
+| [视频教程](docs/07-videos.md) | 视频课程与公开课 |
+| [书单](docs/08-books.md) | AI / ML / LLM 相关书籍 |
+| [开源项目](docs/09-projects.md) | 值得阅读和动手的项目 |
+| [信息源](docs/10-info-sources.md) | 论文、资讯与模型更新入口 |
+| [进阶专题](docs/11-advanced.md) | 多模态、安全、强化学习与部署 |
+| [AI 公司与职业资源](docs/12-companies-referrals.md) | 官方产品与招聘入口 |
+| [行业事件复盘](events/) | 从重要事件中提炼技术与产品经验 |
 
-- 🌟 ⏱️ 1d+ | [《深度学习》（花书）— AI 圣经](https://www.deeplearningbook.org/)
-- 🌟 ⏱️ 1-2h | [Andrej Karpathy：Neural Networks: Zero to Hero](https://github.com/karpathy/zero-to-hero)
-- ✅ ⏱️ 30min | [李宏毅《机器学习》公开课](https://speech.ee.ntu.edu.tw/~hylee/ml/2024-spring.php)
-- ✅ ⏱️ 1-2h | [Andrej Karpathy：A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+## 收录标准
 
----
+- **能帮读者完成一个学习目标**：优先课程、教程、文档、代码和实践项目，而不是只列名称。
+- **说明推荐理由**：标出适合人群、前置知识、语言、费用或访问限制，以及预计投入。
+- **优先原始来源**：官方文档、论文、作者课程和项目仓库优先；二手资料注明价值。
+- **谨慎使用评价标签**：🌟 必读、✅ 推荐、💡 补充表示编辑推荐顺序，不代表客观排名。
+- **动态信息注明核查时间**：模型、价格、公司和招聘信息以官方页面为准。
 
-## 🚀 快速导航
+## 参与维护
 
-| 我是... | 推荐入口 |
-|---------|----------|
-| 完全新手 | [📘 AI 入门 101](docs/01-getting-started.md) |
-| 学深度学习 | [🧠 深度学习路径](docs/02-deep-learning-path.md) |
-| 学 LLM / 大模型 | [🤖 LLM 学习路径](docs/03-llm-path.md) |
-| 学机器学习经典 | [📊 ML 学习路径](docs/04-ml-path.md) |
-| 学 Prompt Engineering | [💬 Prompt 工程](docs/05-prompt-engineering.md) |
-| 想做 RAG / Agent | [🔗 RAG & Agent](docs/06-rag-agent.md) |
-| 找视频课 | [🎬 视频教程](docs/07-videos.md) |
-| 找书 | [📚 必读书单](docs/08-books.md) |
-| 想做项目 | [💻 推荐开源项目](docs/09-projects.md) |
-| 想跟前沿 | [📰 信息源](docs/10-info-sources.md) |
-| 看 AI 行业事件 | [🔥 热点事件分析](events/) |
-| 看国内 AI 公司 | [🇨🇳 AI 公司 + 内推](docs/12-companies-referrals.md) |
+发现链接失效、信息过时或有更好的学习资料，欢迎[开 Issue](https://github.com/rockyfang2024/awesome-ai-zh/issues/new/choose) 或提交 PR。贡献前请看[贡献指南](CONTRIBUTING.md)。小幅修正同样有帮助。
 
----
+## 维护节奏
 
-## 📚 资源模块
+每月核查首页与动态信息，每季度复查学习路线和目录。本次已核查首页、入门路径、LLM 模型入口、职业资源与事件页：**2026-10-12**。其他专题页保留各自原有维护日期，尚未纳入本轮内容复核。维护规则见 [MAINTENANCE.md](MAINTENANCE.md)。
 
-按主题拆分，详情见 `docs/` 子目录：
+如果这份路线帮你开始学习，欢迎 Star；如果你把它改成了课程、读书会或团队学习计划，也欢迎分享你的用法。
 
-| 模块 | 内容 |
-|------|------|
-| [📘 AI 入门 101](docs/01-getting-started.md) | 什么是 AI、ML、DL、LLM，工具与环境 |
-| [🧠 深度学习](docs/02-deep-learning-path.md) | 神经网络、CNN/RNN/Transformer、训练技巧 |
-| [🤖 LLM / 大模型](docs/03-llm-path.md) | GPT / Claude / Gemini / 文心 / 通义 + RAG + Agent |
-| [📊 机器学习经典](docs/04-ml-path.md) | 监督/无监督学习、特征工程、模型评估 |
-| [💬 Prompt 工程](docs/05-prompt-engineering.md) | Prompt 技巧、Chain-of-Thought、Few-shot |
-| [🔗 RAG & Agent](docs/06-rag-agent.md) | 检索增强生成、AI Agent 框架 |
-| [🎬 视频教程](docs/07-videos.md) | B 站 + YouTube + 在线交互 |
-| [📚 必读书单](docs/08-books.md) | 中文 + 英文 + 论文 |
-| [💻 推荐开源项目](docs/09-projects.md) | 按任务分类 |
-| [📰 信息源](docs/10-info-sources.md) | 公众号 / Newsletter / Twitter / 数据平台 |
-| [🔬 进阶专题](docs/11-advanced.md) | 多模态、强化学习、AI 安全、对齐 |
-| [🇨🇳 AI 公司 + 内推](docs/12-companies-referrals.md) | 大模型公司列表 + 内推资源 |
+## 许可
 
----
-
-## 🔥 热点事件分析
-
-> 本仓库特色：每次 AI 行业发生重大事件（模型发布、安全事故、监管政策、热门争议），做深度复盘，提取开发者/用户/政策观察者的学习点。
-
-| 日期 | 事件 | 类型 | 核心 | 详细 |
-|------|------|------|------|------|
-| 待补充 | _待你提供信息_ | — | — | — |
-
-> 📝 模板见 [`events/_template/`](events/_template/)
-
----
-
-## ⚠️ 数据时效性
-
-AI 行业**变化极快**（模型 3-6 个月一迭代），本仓库所有数据（模型版本、价格、benchmark、公司状态）都可能快速变化。任何具体数字请以原始来源为准。
-本仓库**只做学习资源的整理和事件的分析框架**，不构成投资 / 选型建议。
-
----
-
-## 🚧 贡献
-
-欢迎提交 PR 补充资源或修正错误：
-- 资源真实可用（链接能打开）
-- 中文资源优先
-- 附 **评分 + 时间标签**
-- 简短说明为什么推荐（一句话）
-- 按类别放到对应模块
-
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-
----
-
-⭐ 如果这个仓库对你有帮助，请 Star 支持！
+仓库原创文字采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)，详见 [LICENSE](LICENSE)。被链接的第三方内容仍遵循各自的版权和许可条款。
